@@ -9,7 +9,7 @@ export default function Home() {
     <div>
       <Header />
       <main className="max-w-[1280px]">
-        <div className="flex  items-center  ">
+        <div className="flex items-center gap-15 ">
           <div>
             <h1 className="font-bold text-left mt-20 text-6xl max-w-120">
               Write & Wire your ideas with <span className="text-violet-500">Anota AI</span>
@@ -36,7 +36,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="ml-96">
+          <div className="">
             <Image src={Hero} alt="hero" />
           </div>
         </div>
