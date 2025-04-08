@@ -4,6 +4,8 @@ body {
   background: #0a0a0a;
   color: #ededed;
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url("data:image/svg+xml,%3Csvg width='10' height='10' viewBox='0 0 10 10' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='1' cy='1' r='0.2' fill='%23ccc' /%3E%3C/svg%3E");
+  background-size: 40px 40px;
 }
 
 main {
