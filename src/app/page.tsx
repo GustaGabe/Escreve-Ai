@@ -41,7 +41,7 @@ export default function Home() {
           </div>
 
           <div className="">
-            <Image src={Hero} alt="hero" />
+            <Image width={550} src={Hero} alt="hero" />
           </div>
         </div>
         <div className="bg-[#0a0a0a] roudend-md h-[100vh] mt-35">
