@@ -16,10 +16,10 @@ export default function Home() {
         <div className="flex justify-between items-center ">
           <div>
             <h1 className="font-bold text-left mt-20 text-6xl max-w-120">
-              Write & Wire your ideas with <span className="text-violet-500">Anota AI</span>
+              Wire your ideas with <span className="text-violet-500">Escreve AI</span>
             </h1>
             <p className="p-2 text-xl max-w-118">
-              Write, and visualize your ideas freely with Anota AI your personal space for thoughts
+              Write, and visualize your ideas freely with Escreve AI your personal space for thoughts
               and creativity.
             </p>
             <div className="flex gap-4 mt-4">
@@ -46,7 +46,7 @@ export default function Home() {
         </div>
         <div className="bg-[#0a0a0a] roudend-md h-[100vh] mt-35">
           <div className="flex flex-col items-center justify-center">
-            <h1 className="mt-15 text-6xl font-bold">Why Anota Ai?</h1>
+            <h1 className="mt-15 text-6xl font-bold">Why Escreve Ai?</h1>
             <div className="mt-25 flex gap-20">
               <h1 className="text-6xl text-neutral-400 max-w-[600px]">
                 Make your own Flow <span className="text-violet-500 font-bold">Fast</span> and

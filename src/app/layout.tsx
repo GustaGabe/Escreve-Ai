@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Anota AI | The AI-Powered Note-Taking Assistant',
-  description: 'The best AI-Powered Note-Taking Assistant',
+  title: 'Escreve AI | The AI-Powered Flow Assistant',
+  description: 'The best AI-Powered Flow Assistant',
 }
 
 export default function RootLayout({

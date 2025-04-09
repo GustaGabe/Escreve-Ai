@@ -6,7 +6,7 @@ export const Header = () => {
     <div className="border-b bg-[#0a0a0a] border-b-neutral-800 p-4">
       <div className="max-w-[1440px] mx-auto flex items-center justify-between">
         <span className="font-bold flex gap-2 text-xl items-center">
-          <Image width={45} src={Logo} alt="Logo" /> Anota Ai
+          <Image width={45} src={Logo} alt="Logo" /> Escreve Ai
         </span>
 
         <button
