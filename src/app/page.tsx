@@ -1,15 +1,19 @@
+
 import { Header } from '@/components/header'
 import { ArrowRight, SquareArrowOutUpRight } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import Hero from '../assets/full-logo.png'
+import { FlowCard } from '@/components/flowCard'
+
+
 
 export default function Home() {
   return (
     <div>
       <Header />
-      <main className="max-w-[1280px]">
-        <div className="flex items-center gap-15 ">
+      <main className="">
+        <div className="flex justify-between items-center ">
           <div>
             <h1 className="font-bold text-left mt-20 text-6xl max-w-120">
               Write & Wire your ideas with <span className="text-violet-500">Anota AI</span>
@@ -27,7 +31,7 @@ export default function Home() {
                 <ArrowRight />
               </Link>
               <Link
-                href="https://github.com/GustaGabe"
+                href="https://github.com/GustaGabe/anotai"
                 target="_blank"
                 className="w-full shadow-lg max-w-[180px] gap-2 flex justify-center items-center bg-violet-500 border border-violet-500 p-2 rounded-md hover:bg-violet-600"
               >
@@ -38,6 +42,19 @@ export default function Home() {
 
           <div className="">
             <Image src={Hero} alt="hero" />
+          </div>
+        </div>
+        <div className="bg-[#0a0a0a] roudend-md h-[100vh] mt-35">
+          <div className="flex flex-col items-center justify-center">
+            <h1 className="mt-15 text-6xl font-bold">Why Anota Ai?</h1>
+            <div className="mt-25 flex gap-20">
+              <h1 className="text-6xl text-neutral-400 max-w-[600px]">
+                Make your own Flow <span className="text-violet-500 font-bold">Fast</span> and
+                <span className="text-violet-500 font-bold"> simple</span>
+              </h1>
+              {/* <p>With Anota Ai you can build your dreams and your flow fast </p> */}
+              <FlowCard />
+            </div>
           </div>
         </div>
       </main>
