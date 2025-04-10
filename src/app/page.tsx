@@ -48,11 +48,13 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center">
             <h1 className="mt-15 text-6xl font-bold">Why Escreve Ai?</h1>
             <div className="mt-25 flex gap-20">
+              <div className='flex flex-col'>
               <h1 className="text-6xl text-neutral-400 max-w-[600px]">
                 Make your own Flow <span className="text-violet-500 font-bold">Fast</span> and
                 <span className="text-violet-500 font-bold"> simple</span>
               </h1>
-              {/* <p>With Anota Ai you can build your dreams and your flow fast </p> */}
+              <p className='mt-2 text-neutral-400 max-w-[550px]'>Start small, think big. This is your space to create, plan, and turn ideas into reality one word at a time. </p>
+              </div>
               <FlowCard />
             </div>
           </div>
